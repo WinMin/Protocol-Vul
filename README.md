@@ -65,10 +65,11 @@ Vulnerabilities in some protocols are collected.
 
 ## TCP/IP
 
-| ID/Alias                   | Description                                                  | References                                                   |
-| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Urgent11                   | The Urgent11 security flaws reside in the TCP/IP (IPnet) networking stack, which is a component of the VxWorks RTOS that manages the device's ability to connect to the internet or to other devices on a local network. | [Urgent11 Technical White Paper]([https://info.armis.com/rs/645-PDC-047/images/Urgent11%20Technical%20White%20Paper.pdf](https://info.armis.com/rs/645-PDC-047/images/Urgent11 Technical White Paper.pdf)) |
-| CVE-2020-11896<br>Ripple20 | CVE-2020-11896 is a critical vulnerability in Treck TCP/IP stack. It allows for Remote Code execution by any attacker that can send UDP packets to an open port on the target device. A prerequisite of this vulnerability is that the device supports IP fragmentation with IP tunneling. In some of the cases where this prerequisite is not met, there will remain a DoS vulnerability. | [JSOF_Ripple20_Technical_Whitepaper_June20](https://www.jsof-tech.com/wp-content/uploads/2020/06/JSOF_Ripple20_Technical_Whitepaper_June20.pdf) |
+| ID/Alias                       | Description                                                  | References                                                   |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Urgent11                       | The Urgent11 security flaws reside in the TCP/IP (IPnet) networking stack, which is a component of the VxWorks RTOS that manages the device's ability to connect to the internet or to other devices on a local network. | [Urgent11 Technical White Paper]([https://info.armis.com/rs/645-PDC-047/images/Urgent11%20Technical%20White%20Paper.pdf](https://info.armis.com/rs/645-PDC-047/images/Urgent11 Technical White Paper.pdf)) |
+| CVE-2020-11896<br>Ripple20     | CVE-2020-11896 is a critical vulnerability in Treck TCP/IP stack. It allows for Remote Code execution by any attacker that can send UDP packets to an open port on the target device. A prerequisite of this vulnerability is that the device supports IP fragmentation with IP tunneling. In some of the cases where this prerequisite is not met, there will remain a DoS vulnerability. | [JSOF_Ripple20_Technical_Whitepaper_June20](https://www.jsof-tech.com/wp-content/uploads/2020/06/JSOF_Ripple20_Technical_Whitepaper_June20.pdf) |
+| CVE-2020-16898<br>Bad Neighbor | A remote code execution vulnerability exists when the Windows TCP/IP stack improperly handles ICMPv6 Router Advertisement packets that use Option Type 25 (Recursive DNS Server Option) and a length field value that is even. | [CVE-2020-16898: “Bad Neighbor”](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cve-2020-16898-bad-neighbor/) |
 
 
 
