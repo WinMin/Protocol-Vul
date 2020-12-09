@@ -3,7 +3,7 @@ Vulnerabilities in some protocols are collected.
 
 ## Related Resources
 
-[网络通讯协议图.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44f73170-746e-4304-9d95-0cf2af3c48bf/.pdf)
+[Network-Communication-Protocols.pdf](./resources/Network-Communication-Protocols.pdf)
 
 ## UPNP(Universal Plug and Play)
 
@@ -71,6 +71,7 @@ Vulnerabilities in some protocols are collected.
 | Urgent11                       | The Urgent11 security flaws reside in the TCP/IP (IPnet) networking stack, which is a component of the VxWorks RTOS that manages the device's ability to connect to the internet or to other devices on a local network. | [Urgent11 Technical White Paper]([https://info.armis.com/rs/645-PDC-047/images/Urgent11%20Technical%20White%20Paper.pdf](https://info.armis.com/rs/645-PDC-047/images/Urgent11 Technical White Paper.pdf)) |
 | CVE-2020-11896<br>Ripple20     | CVE-2020-11896 is a critical vulnerability in Treck TCP/IP stack. It allows for Remote Code execution by any attacker that can send UDP packets to an open port on the target device. A prerequisite of this vulnerability is that the device supports IP fragmentation with IP tunneling. In some of the cases where this prerequisite is not met, there will remain a DoS vulnerability. | [JSOF_Ripple20_Technical_Whitepaper_June20](https://www.jsof-tech.com/wp-content/uploads/2020/06/JSOF_Ripple20_Technical_Whitepaper_June20.pdf) |
 | CVE-2020-16898<br>Bad Neighbor | A remote code execution vulnerability exists when the Windows TCP/IP stack improperly handles ICMPv6 Router Advertisement packets that use Option Type 25 (Recursive DNS Server Option) and a length field value that is even. | [CVE-2020-16898: “Bad Neighbor”](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/cve-2020-16898-bad-neighbor/) |
+| Amnesia:33                     | AMNESIA:33 is the first study we have published under Project Memoria. In this study, we discuss the results of the security analysis of seven open source TCP/IP stacks and report a bundle of 33 new vulnerabilities found in four of the seven analyzed stacks that are used by major IoT, OT and IT device vendors. | [Amnesia:33](https://www.forescout.com/company/resources/amnesia33-how-tcp-ip-stacks-breed-critical-vulnerabilities-in-iot-ot-and-it-devices/) |
 
 
 
