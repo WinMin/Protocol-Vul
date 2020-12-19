@@ -1,11 +1,11 @@
 # Protocol-vul
-Vulnerabilities in some protocols are collected.
+This project aims to keep an archive of the most severe vulnerabilities found in widespread protocols.
 
 ## Related Resources
 
 [Network-Communication-Protocols.pdf](./resources/Network-Communication-Protocols.pdf)
 
-## UPNP(Universal Plug and Play)
+## UPNP (Universal Plug and Play)
 
 | ID/Alias                       | Description                                                  | References                                                   |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -14,7 +14,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## PPP(Point-to-Point Protocol)
+## PPP (Point-to-Point Protocol)
 
 | ID/Alias      | Description                                                  | References                                                   |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -22,7 +22,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## SLP(Service Location Protocol)
+## SLP (Service Location Protocol)
 
 | ID/Alias      | Description                                                  | References |
 | ------------- | ------------------------------------------------------------ | ---------- |
@@ -30,7 +30,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## AFP(Apple Filing Protocol)
+## AFP (Apple Filing Protocol)
 
 | ID/Alias      | Description                                                  | References                                                   |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -49,7 +49,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## SMB(Server Message Block)
+## SMB (Server Message Block)
 
 | ID/Alias                  | Description                                                  | References                                                   |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -58,7 +58,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## CPD(Cisco Discovery Protocol)
+## CPD (Cisco Discovery Protocol)
 
 | ID/Alias | Description                                                  | References                                                   |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -83,7 +83,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## SNMP(Simple Network Management Protocol)
+## SNMP (Simple Network Management Protocol)
 
 | ID/Alias      | Description                                                  | References                                                   |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -127,7 +127,25 @@ Vulnerabilities in some protocols are collected.
 
 
 
+## BGP (Border Gateway Protocol)
+
+| ID/Alias                | Description                                                  | References                                                   |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| BGP Hijacking | A BGP hijack occurs when a malicious node deceives another node, lying about what the routes are for its neighbors. Without any security protocols, this misinformation can propagate from node to node, until a large number of nodes now know about, and attempt to use these incorrect, nonexistent, or malicious routes. Essentially, an undetectable (from the victim's side) public address spoofing attack. | [BGP Hijacking BlogPost by CloudFlare](https://isbgpsafeyet.com/) |
+
+
+
+## LTE
+
+| ID/Alias                | Description                                                  | References                                                   |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ReVoLTE | ReVoLTE exploits an LTE implementation flaw to recover the contents of an encrypted VoLTE call. This enables an adversary to eavesdrop on VoLTE phone calls. ReVoLTE makes use of a predictable keystream reuse, which was discovered by Raza & Lu. Eventually, the keystream reuse allows an adversary to decrypt a recorded call with minimal resources. | [ReVoLTE WebSite](https://revolte-attack.net/)<br>[Mobile Sentinel: A ReVoLTE detector](https://github.com/RUB-SysSec/mobile_sentinel) |
+
+
+
 # Contributor
 * [swing](https://github.com/WinMin)
 
 * [leommxj](https://github.com/leommxj)
+
+* [PinkDev1](https://github.com/PinkDev1)
