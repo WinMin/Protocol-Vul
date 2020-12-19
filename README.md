@@ -1,11 +1,11 @@
 # Protocol-vul
-Vulnerabilities in some protocols are collected.
+This project aims to keep an archive of the most severe vulnerabilities found in widespread protocols.
 
 ## Related Resources
 
 [Network-Communication-Protocols.pdf](./resources/Network-Communication-Protocols.pdf)
 
-## UPNP(Universal Plug and Play)
+## UPNP (Universal Plug and Play)
 
 | ID/Alias                       | Description                                                  | References                                                   |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -14,7 +14,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## PPP(Point-to-Point Protocol)
+## PPP (Point-to-Point Protocol)
 
 | ID/Alias      | Description                                                  | References                                                   |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -22,7 +22,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## SLP(Service Location Protocol)
+## SLP (Service Location Protocol)
 
 | ID/Alias      | Description                                                  | References |
 | ------------- | ------------------------------------------------------------ | ---------- |
@@ -30,7 +30,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## AFP(Apple Filing Protocol)
+## AFP (Apple Filing Protocol)
 
 | ID/Alias      | Description                                                  | References                                                   |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -42,6 +42,8 @@ Vulnerabilities in some protocols are collected.
 
 | ID/Alias                  | Description                                                  | References                                                   |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| BlueBorne<br>Multiple CVEs | RCE on Android: CVE-2017-0781 & CVE-2017-0782. MiTM on Windows: CVE-2017-8628. RCE on iOS: CVE-2017-14315. BlueBorne contains even more vulnerabilites, but we only list the highest severity ones. | [BlueBorne Blog](https://www.armis.com/blueborne/) [BlueBorne Poc Code](https://github.com/ArmisSecurity/blueborne) |
+| CVE-2020-15802<br>BLURtooth | BLURtooth (the BLUR attacks) exploits the lack of cross-transport key validation, allowing an attacker to bypass Bluetooth Classic and Bluetooth Low Energy security mechanisms. This affects the Cross-Transport Key Derivation (CTKD) component in Bluetooth 4.0 to Bluetooth 5.0 | [CVE-2020-15802](https://kb.cert.org/vuls/id/589825)<br>[BLURtooth Website](https://hexhive.epfl.ch/BLURtooth/) |
 | CVE-2020-0022<br>BlueFrag | In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bounds write due to an incorrect bounds calculation. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation. | [CVE-2020-0022 an Android 8.0-9.0 Bluetooth Zero-Click RCE – BlueFrag](https://insinuator.net/2020/04/cve-2020-0022-an-android-8-0-9-0-bluetooth-zero-click-rce-bluefrag/) |
 | CVE-2020-10135<br>BIAS    | Legacy pairing and secure-connections pairing authentication in Bluetooth® BR/EDR Core Specification v5.2 and earlier may allow an unauthenticated user to complete authentication without pairing credentials via adjacent access. An unauthenticated, adjacent attacker could impersonate a Bluetooth BR/EDR master or slave to pair with a previously paired remote device to successfully complete the authentication procedure without knowing the link key. | [BIAS](https://francozappa.github.io/about-bias/)            |
 | CVE-2019-9506<br>KNOB     | The specification of Bluetooth includes an encryption key negotiation protocol that allows to negotiate encryption keys with 1 Byte of entropy without protecting the integrity of the negotiation process. A remote attacker can manipulate the entropy negotiation to let any standard compliant Bluetooth device negotiate encryption keys with 1 byte of entropy and then brute force the low entropy keys in real time. | [KNOB Attack](https://knobattack.com/)                       |
@@ -49,7 +51,18 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## SMB(Server Message Block)
+
+## BLE(Bluetooth Low Energy)
+
+| ID/Alias                  | Description                                                  | References                                                   |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| CVE-2020-9770<br>BLESA | BLESA takes advantage of the fact that re-authentication of cryptographic keys is optional under the BLE standard. An attacker can eavesdrop and spoof the data. As the BLE advertising packets are sent in plain text, an attacker can mimic the server by sending the same packets and cloning its MAC address. By doing so, the attacker can transmit spoofed advertising packets whenever the client starts a new session with the previously-paired server. | [News Article](https://www.ibtimes.sg/what-blesa-hackers-can-potentially-target-billions-devices-bluetooth-security-flaw-51582)<br>[Research Paper](https://www.usenix.org/system/files/woot20-paper-wu-updated.pdf)<br>[CVE-2020-9770](https://nvd.nist.gov/vuln/detail/CVE-2020-9770) |
+| CVE-2020-15802<br>BLURtooth | BLURtooth (the BLUR attacks) exploits the lack of cross-transport key validation, allowing an attacker to bypass Bluetooth Classic and Bluetooth Low Energy security mechanisms. This affects the Cross-Transport Key Derivation (CTKD) component in Bluetooth 4.0 to Bluetooth 5.0 | [CVE-2020-15802](https://kb.cert.org/vuls/id/589825)<br>[BLURtooth Website](https://hexhive.epfl.ch/BLURtooth/) |
+
+
+
+## SMB (Server Message Block)
+
 
 | ID/Alias                  | Description                                                  | References                                                   |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -58,7 +71,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## CPD(Cisco Discovery Protocol)
+## CPD (Cisco Discovery Protocol)
 
 | ID/Alias | Description                                                  | References                                                   |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -83,7 +96,7 @@ Vulnerabilities in some protocols are collected.
 
 
 
-## SNMP(Simple Network Management Protocol)
+## SNMP (Simple Network Management Protocol)
 
 | ID/Alias      | Description                                                  | References                                                   |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -127,7 +140,25 @@ Vulnerabilities in some protocols are collected.
 
 
 
-# Contributor
+## BGP (Border Gateway Protocol)
+
+| ID/Alias                | Description                                                  | References                                                   |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| BGP Hijacking | A BGP hijack occurs when a malicious node deceives another node, lying about what the routes are for its neighbors. Without any security protocols, this misinformation can propagate from node to node, until a large number of nodes now know about, and attempt to use these incorrect, nonexistent, or malicious routes. Essentially, an undetectable (from the victim's side) public address spoofing attack. | [BGP Hijacking BlogPost by CloudFlare](https://isbgpsafeyet.com/) |
+
+
+
+## LTE
+
+| ID/Alias                | Description                                                  | References                                                   |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ReVoLTE | ReVoLTE exploits an LTE implementation flaw to recover the contents of an encrypted VoLTE call. This enables an adversary to eavesdrop on VoLTE phone calls. ReVoLTE makes use of a predictable keystream reuse, which was discovered by Raza & Lu. Eventually, the keystream reuse allows an adversary to decrypt a recorded call with minimal resources. | [ReVoLTE WebSite](https://revolte-attack.net/)<br>[Mobile Sentinel: A ReVoLTE detector](https://github.com/RUB-SysSec/mobile_sentinel) |
+
+
+
+# Contributors
 * [swing](https://github.com/WinMin)
 
 * [leommxj](https://github.com/leommxj)
+
+* [PinkDev1](https://github.com/PinkDev1)
