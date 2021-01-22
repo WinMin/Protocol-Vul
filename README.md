@@ -137,6 +137,7 @@ This project aims to keep an archive of the most severe vulnerabilities found in
 | ID/Alias                | Description                                                  | References                                                   |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | CVE-2020-1350<br>SIGRed | a wormable, critical vulnerability (CVSS base score of 10.0) in the Windows DNS server that affects Windows Server versions 2003 to 2019, and can be triggered by a malicious DNS response. As the service is running in elevated privileges (SYSTEM), if exploited successfully, an attacker is granted Domain Administrator rights, effectively compromising the entire corporate infrastructure. | [SIGRed – Resolving Your Way into Domain Admin: Exploiting a 17 Year-old Bug in Windows DNS Servers](https://research.checkpoint.com/2020/resolving-your-way-into-domain-admin-exploiting-a-17-year-old-bug-in-windows-dns-servers/)<br>[CVE-2020-1350 (SIGRed) - Windows DNS DoS Exploit](https://github.com/maxpl0it/CVE-2020-1350-DoS/blob/master/sigred_dos.py) |
+|DNSpooq|Cache Poisoning and RCE in Popular DNS Forwarder dnsmasq|[DNSpooq_Technical-Whitepaper](https://www.jsof-tech.com/wp-content/uploads/2021/01/DNSpooq_Technical-Whitepaper.pdf)|
 
 
 
