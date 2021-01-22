@@ -1,4 +1,4 @@
-# Protocol-vul
+# Protocol-Vulnerability
 This project aims to keep an archive of the most severe vulnerabilities found in widespread protocols.
 
 ## Related Resources
