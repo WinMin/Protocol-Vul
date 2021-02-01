@@ -24,9 +24,9 @@ This project aims to keep an archive of the most severe vulnerabilities found in
 
 ## SLP (Service Location Protocol)
 
-| ID/Alias      | Description                                                  | References |
-| ------------- | ------------------------------------------------------------ | ---------- |
-| CVE-2019-5544 | The vulnerability is due to a heap overwrite issue in OpenSLP used in ESXi and Horizon DaaS appliances. Malicious users with access to port 427 on the ESXi host or any Horizon DaaS platform through the network may overwrite the heap of the OpenSLP service, eventually causing remote code execution. |            |
+| ID/Alias      | Description                                                  | References                                                   |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| CVE-2019-5544 | The vulnerability is due to a heap overwrite issue in OpenSLP used in ESXi and Horizon DaaS appliances. Malicious users with access to port 427 on the ESXi host or any Horizon DaaS platform through the network may overwrite the heap of the OpenSLP service, eventually causing remote code execution. | [openslp 1.2.1, 2.0.0 heap overflow vulnerability](https://www.openwall.com/lists/oss-security/2019/12/06/1) |
 
 
 
