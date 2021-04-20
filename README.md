@@ -24,6 +24,25 @@
 
   This project aims to keep an archive of the most severe vulnerabilities found in widespread protocols.
 
+## Table of contents
+  * [AFP (Apple Filing Protocol)](#afp-apple-filing-protocol)
+  * [BGP (Border Gateway Protocol)](#bgp-border-gateway-protocol)
+  * [BLE(Bluetooth Low Energy)](#blebluetooth-low-energy)
+  * [BlueTooth](#bluetooth)
+  * [CPD (Cisco Discovery Protocol)](#cpd-cisco-discovery-protocol)
+  * [DNS](#dns)
+  * [IPP (Internet Printing Protocol)](#ipp-internet-printing-protocol)
+  * [LTE](#lte)
+  * [LoRaWAN](#lorawan)
+  * [PPP (Point-to-Point Protocol)](#ppp-point-to-point-protocol)
+  * [SLP (Service Location Protocol)](#slp-service-location-protocol)
+  * [SMB (Server Message Block)](#smb-server-message-block)
+  * [SNMP (Simple Network Management Protocol)](#snmp-simple-network-management-protocol)
+  * [TCP/IP](#tcpip)
+  * [TPD](#tpd)
+  * [Thunderbolt](#thunderbolt)
+  * [UPNP (Universal Plug and Play)](#upnp-universal-plug-and-play)
+  * [WLAN](#wlan)
 
 ## AFP (Apple Filing Protocol)
 
