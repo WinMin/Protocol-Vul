@@ -25,9 +25,10 @@
 
 ## AFP (Apple Filing Protocol)
 
-| ID/Alias      | Description                                                  | References                                                   |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| CVE-2018-1160 | Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution. | [Exploiting an 18 Year Old Bug](https://medium.com/tenable-techblog/exploiting-an-18-year-old-bug-b47afe54172)<br>[Netatalk CVE-2018–1160 越界写漏洞分析](https://xz.aliyun.com/t/3710) |
+| ID/Alias       | Description                                                  | References                                                   |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| CVE-2018-1160  | Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution. | [Exploiting an 18 Year Old Bug](https://medium.com/tenable-techblog/exploiting-an-18-year-old-bug-b47afe54172)<br>[Netatalk CVE-2018–1160 越界写漏洞分析](https://xz.aliyun.com/t/3710) |
+| CVE-2021-31439 | The specific flaw exists within the processing of DSI structures in Netatalk. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. | [Synology DiskStation Manager Netatalk dsi_doff Heap-based Buffer Overflow Remote Code Execution Vulnerability](https://www.zerodayinitiative.com/advisories/ZDI-21-492/) |
 
 
 ## BGP (Border Gateway Protocol)
