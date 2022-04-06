@@ -187,5 +187,5 @@
 
   * [leommxj](https://github.com/leommxj)
 
-  * [PinkDev1](https://github.com/PinkDev1)
+  * [ItsIgnacioPortal](https://github.com/ItsIgnacioPortal)
 
